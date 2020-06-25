@@ -1,0 +1,9 @@
+- Entre no diretório ...UFAM/Web1/Aula\ 1
+- Execute node index.js
+- Acesse localhost:3000
+
+Para conseguir acessar pelo localhost você deve digita no diretório:
+- npm init
+- npm install express (cat package.json)
+- mkdir index.js (faça o código conforme o do presente código)
+- node index.js

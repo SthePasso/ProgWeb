@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="processa.php" method="get">
+        <fieldset>
+            <legend>Informe seu Email</legend>
+            <input type="email" name="email" id=""><br>
+        </fieldset>
+        <fieldset>
+            <legend>Selecione seu curso</legend>
+            <input type="radio" name="curso" id="cc" value="cc">
+            <label for="cc">Ciência da Computação<br></label>
+            <input type="radio" name="curso" id="es" value="es">
+            <label for="es">Engenharia de Software<br></label>
+            <input type="radio" name="curso" id="ec"value="ec">
+            <label for="ec">Engenharia da Computação<br></label>
+        </fieldset>
+        <fieldset>
+            <legend>Informe as linguagens que você  programa</legend>
+            <input type="checkbox" name="ling[]" id="c" value="c">
+            <label for="c">C</label>
+            <input type="checkbox" name="ling[]" id="java" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" name="ling[]" id="py" value="py">
+            <label for="py">Python</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

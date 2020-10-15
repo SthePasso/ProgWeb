@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        var x = "", i, j, calculate = "";
+        for (i = 1; i <= 10; i++) {
+            for(j = 1; j <= 10; j++){
+                calculate = calculate+"<tr><td>"+j + "x" + i+"</td><td>"+i*j+"</td></tr>";
+            }
+            x = x + "<table id=" + i + "<thead><th colspan=" + 2 + ">Produtos de " + i + "</th></thead>"+calculate+"</table>";
+            calculate = "";
+        }
+        document.getElementById("demo").innerHTML = x;
+    </script>
+</body>
+</html>

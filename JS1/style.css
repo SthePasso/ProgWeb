@@ -1,0 +1,13 @@
+table {
+    text-align:center; 
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+th, td{
+    text-align:center; 
+    border: 1px solid black;
+}

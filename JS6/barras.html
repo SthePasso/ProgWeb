@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <a href="http://localhost:8000/"></a>
+        <title>Color</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="container">
+        <h1>Um Gráfico de Barras</h1>
+        Informe a altura das barras: 
+        <input type="text" id="b1" value="">
+        <input type="text" id="b2" value="">
+        <input type="text" id="b3" value="">
+        <input type="text" id="b4" value="">
+        <input type="text" id="b5" value=""><br>
+        Informe a largura das barras: 
+        <input type="text" id="l1" value=""><br><br>
+        <button id="ok">Desenhar grafico</button><br>
+        <div class="graphic" id="graphic" ></div>
+    </body>
+    <script>
+        document.getElementById("ok").onclick = function() {
+            var x = '', i, width, height, left = 0, leftL;
+            width = document.getElementById("l1").value;
+            //x = '<div class="graphic">';
+            for (i = 1; i <= 5; i++) {
+                leftL = left.toString()
+                height = document.getElementById("b"+i).value
+                x = x + '<div class="red" style="left:'+leftL+'% ;width:'+width+'% ;height:'+height+'% ;"></div>';            
+                left += Number(width)+5;
+            }
+            //x = '</div>';
+            console.log('oi');
+            document.getElementById("graphic").innerHTML = x;
+        }        
+    </script>
+
+    </body>
+</html>

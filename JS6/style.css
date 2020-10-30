@@ -1,0 +1,25 @@
+.container {
+    width: 700px;
+    clear: both;
+}
+.container input {
+    width: 10%;
+    clear: both;
+    margin: 5px;
+}
+.graphic{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+.red { 
+    width:100px; 
+    height:200px; 
+    background-color:red; 
+    position: absolute;
+    bottom: 0;
+}
+
+
+

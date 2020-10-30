@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <style>
+        .container {
+            width: 500px;
+            clear: both;
+        }
+
+        .container input {
+            width: 100%;
+            clear: both;
+            margin-bottom: 5px;
+        }
+    </style>
+    <body class="container">
+
+        Informe o raio <input type="number" id="raio" value="">
+        <button onclick="myFunction()">OK</button><br>
+        Área do círculo <input type="number" id="area" value=""><br>
+        Circunferência <input type="number" id="circ" value=""><br>
+
+
+    <script>
+        function myFunction() {
+            let raio = document.getElementById("raio").value;
+            document.getElementById("area").value = raio*raio*3.14;
+            document.getElementById("circ").value = 2*3.14*raio;
+        }
+    </script>
+
+    </body>
+</html>

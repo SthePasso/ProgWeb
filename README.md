@@ -1,7 +1,7 @@
 <img src="https://www.colegioweb.com.br/wp-content/uploads/2017/12/Liberados-os-gabaritos-do-PSC-2018-da-UFAM.png" width="150" align="right">
 
 
-> ICC007 ~ **Programação para a Web** ~ 2018/1
+> ICC007 ~ **Programação para a Web** ~ 2020/ERE/Periodo Especial (PANDEMIA)
 
 ----------------------------------------
 

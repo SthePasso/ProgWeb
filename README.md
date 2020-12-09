@@ -1,4 +1,17 @@
-**Implementação das aulas e exercício de Programação Web**
+<img src="https://www.colegioweb.com.br/wp-content/uploads/2017/12/Liberados-os-gabaritos-do-PSC-2018-da-UFAM.png" width="150" align="right">
+
+
+> ICC007 ~ **Programação para a Web** ~ 2018/1
+
+----------------------------------------
+
+**Curso:** Engenharia de Software <br>
+**Professor:** David Fernandes de Oliveira <br>
+**Aluno:** Sthefanie Jofer Gomes Passo ― 21853915 <br>
+
+----------------------------------------
+
+## Implementação das aulas e exercício de Programação Web
 
 **Exercício da Aula 2:**
 

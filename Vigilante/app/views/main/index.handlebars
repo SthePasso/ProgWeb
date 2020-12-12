@@ -1,0 +1,11 @@
+{{#if mostraTitulo}}
+<h1>{{titulo}}</h1>
+<i class="fas fa-ambulance"></i>
+{{else}}
+<h1>Página sem Título</h1>
+{{/if}}
+<ul>
+    {{#each professores}}
+    <li><strong>{{nome}}</strong>: sala {{sala}}</li>
+    {{/each}}
+</ul>

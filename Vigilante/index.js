@@ -30,8 +30,16 @@ app.use("/js",[
 
 //app.use(morgan("combined"));
 app.use(logger("completo"));
-
+app.use(express.urlencoded({ extended: false}));
 app.use(router);
+
+app.use(function(req, res, next){
+    res.status(404);
+    res.render('main/error',{title:"Página não encontrada"});
+});
+app.use(function(error, req, res, next){
+    res.render('main/error',{title: error.message});
+});
 
 app.listen(5000, function(){
     console.log("Escutando na porta 5000!")

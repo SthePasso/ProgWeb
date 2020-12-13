@@ -1,6 +1,6 @@
 function index (req, res){
     res.render("main/index", {
-        titulo: "Professores do IComp",
+        titulo: "Vigilantes da Floresta",
         mostraTitulo: true,
         professores: [
             { nome: "David Fernandes", sala: 1638},

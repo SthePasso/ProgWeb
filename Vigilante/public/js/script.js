@@ -288,8 +288,8 @@
       pontos = new Pontuacao();
       pausa = true;
       game_Over = false;
-      console.log("START");
-      titulo = new Titulo("     START");
+      //console.log("START");
+      titulo = new Titulo("START NOW");
       setTimeout( function() {
         document.querySelectorAll('.titulo').forEach(function(a){
           a.remove()
@@ -311,7 +311,7 @@
       //clearInterval(gameLoop);
       if(!game_Over){
         if(!pausa){
-          titulo = new Titulo("PAUSE");
+          titulo = new Titulo("FAST PAUSE");
           pausa=true;
         } else{
           document.querySelectorAll('.titulo').forEach(function(a){
